@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   /* width: 100%; */
   height: 100vh;
-  background-image: url("/public/images/bg.jpg");
+  background-image: url("/images/bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

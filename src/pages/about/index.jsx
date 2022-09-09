@@ -13,7 +13,7 @@ export const About = () => {
       <AboutContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>
-          <img src="public/icons/logo.png" alt="" width="100px" />
+          <img src="/icons/logo.png" alt="" width="100px" />
         </div>
 
         <section>
@@ -31,7 +31,7 @@ export const About = () => {
             </p>
             <img
               className="imagePerfil"
-              src="public/assets/1.jpeg"
+              src="/assets/1.jpeg"
               alt="Perfil Designer"
             />
           </div>

@@ -23,7 +23,7 @@ export const Header = () => {
             <Link to="/services">Serviços</Link>
           </ul>
           <Link to="/" onClick={SetFalse}>
-            <img src="public/icons/logo.png" alt="" width="100px" />
+            <img src="/icons/logo.png" alt="" width="100px" />
           </Link>
           {!mobile ? (
             <ul>

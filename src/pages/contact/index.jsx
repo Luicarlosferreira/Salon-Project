@@ -13,12 +13,12 @@ export const Contact = () => {
     <Fade delay={100}>
       <Helmet>
         <title>Dijiane's Contatos</title>
-        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+        <link rel="icon" type="image/svg+xml" href="/icons/logo.png" />
       </Helmet>
       <ContactContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>
-          <img src="public/icons/logo.png" alt="" width="100px" />
+          <img src="/icons/logo.png" alt="" width="100px" />
         </div>
 
         <section>

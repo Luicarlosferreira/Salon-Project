@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   padding: 15px;
-  background-image: url("public/images/bg.jpg");
+  background-image: url("/images/bg.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;

@@ -8,12 +8,12 @@ export const Services = () => {
     <Fade delay={100}>
       <Helmet>
         <title>Dijiane's Serviços</title>
-        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+        <link rel="icon" type="image/svg+xml" href="/icons/logo.png" />
       </Helmet>
       <ServiceContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>
-          <img src="public/icons/logo.png" alt="" width="100px" />
+          <img src="/icons/logo.png" alt="" width="100px" />
         </div>
 
         <section>
