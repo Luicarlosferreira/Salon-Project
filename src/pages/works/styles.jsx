@@ -63,6 +63,9 @@ export const ServiceContainer = styled.div`
     padding: 5px;
     border-radius: 5px;
   }
+  @media (max-width: 622px) {
+    height: 100%;
+  }
 
   @media (max-width: 456px) {
     height: 100vh;
