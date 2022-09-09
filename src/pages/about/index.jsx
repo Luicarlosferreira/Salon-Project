@@ -8,7 +8,7 @@ export const About = () => {
     <Fade delay={100}>
       <Helmet>
         <title>Sobre Dijiane's </title>
-        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+        <link rel="icon" type="image/svg+xml" href="/icons/logo.png" />
       </Helmet>
       <AboutContainer>
         <div className="topBack">

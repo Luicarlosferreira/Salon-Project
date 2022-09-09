@@ -70,7 +70,6 @@ export const Header = () => {
       </HeaderContainer>
       <br />
       <br />
-
       <MapsEnvironment />
     </Fade>
   );

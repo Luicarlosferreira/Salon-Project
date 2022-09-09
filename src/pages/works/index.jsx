@@ -13,7 +13,7 @@ export const Services = () => {
       <ServiceContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>
-          <img src="/icons/logo.png" alt="" width="100px" />
+          <img src="public/icons/logo.png" alt="" width="100px" />
         </div>
 
         <section>
