@@ -1,10 +1,15 @@
 import { AboutContainer } from "./styles";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import { Helmet } from "react-helmet-async";
 
 export const About = () => {
   return (
     <Fade delay={100}>
+      <Helmet>
+        <title>Sobre Dijiane's </title>
+        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+      </Helmet>
       <AboutContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>

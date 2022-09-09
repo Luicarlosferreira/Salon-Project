@@ -1,9 +1,14 @@
 import { GalleryContainer } from "./styles";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import { Helmet } from "react-helmet-async";
 export const Gallery = () => {
   return (
     <Fade delay={100}>
+      <Helmet>
+        <title>Dijiane's Galeria</title>
+        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+      </Helmet>
       <GalleryContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>

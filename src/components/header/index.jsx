@@ -4,6 +4,7 @@ import { HiOutlineMenuAlt3, VscClose } from "react-icons/all";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import { MapsEnvironment } from "../services/maps";
+import { Helmet } from "react-helmet-async";
 
 export const Header = () => {
   const [mobile, setIsMobile] = useState(false);
@@ -11,6 +12,10 @@ export const Header = () => {
 
   return (
     <Fade delay={100}>
+      <Helmet>
+        <title>Dijiane's Salon</title>
+        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+      </Helmet>
       <HeaderContainer>
         <HeaderContent>
           <ul className="firstUl">

@@ -1,6 +1,7 @@
 import { ContactContainer } from "./styles";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import { Helmet } from "react-helmet-async";
 import { BsFacebook, BsInstagram, ImWhatsapp } from "react-icons/all";
 
 export const Contact = () => {
@@ -10,6 +11,10 @@ export const Contact = () => {
 
   return (
     <Fade delay={100}>
+      <Helmet>
+        <title>Dijiane's Contatos</title>
+        <link rel="icon" type="image/svg+xml" href="public/icons/logo.png" />
+      </Helmet>
       <ContactContainer>
         <div className="topBack">
           <Link to="/">Voltar</Link>
