@@ -19,9 +19,7 @@ export const MapsEnvironment = () => {
   });
   return (
     <MapsContainer>
-      <h1>
-        Venha conhecer o nosso espaço do Porto, para te fazer linda como sempre.
-      </h1>
+      <h1>Venha conhecer o nosso espaço, para te fazer linda como sempre.</h1>
 
       <p>Rua de Santa Catarina 1557 piso 1 loja 30 código postal 4000-448</p>
       <p>Galerias atlantis (marquês Bonfim)</p>
