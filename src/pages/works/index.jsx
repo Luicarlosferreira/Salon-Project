@@ -37,6 +37,26 @@ export const Services = () => {
             </p>
             <p>Técnica em depilação</p>
             <span>Atendimento exclusivo com hora marcada</span>
+            <div className="costs">
+              <h1>- Tabela de preços -</h1>
+              <ul>
+                <li>Sobrancelha - €7,00</li>
+                <li>Sobrancelha + henna - € 10,00 </li>
+                <li>Sobrancelha masculina - € 9,00 </li>
+                <li>Buço - € 4,00 </li>
+                <li>Axilas - € 6,00 </li>
+                <li>Meio braço - € 7,00 </li>
+                <li>Braço inteiro - € 12,00 </li>
+                <li>Virilha cavada - € 12,00 </li>
+                <li>Virilha total - € 15,00 </li>
+                <li>Meia perna - € 8,00 </li>
+                <li>Perna inteira - € 13,00 </li>
+                <li>Rosto e linha - € 22,00 </li>
+                <li>
+                  Micropigmentação <i>(a partir)</i> - € 130,00{" "}
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
       </ServiceContainer>

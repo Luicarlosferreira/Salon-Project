@@ -5,7 +5,7 @@ export const ServiceContainer = styled.div`
   background-image: url("/images/bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   gap: 2em;
   display: flex;
   flex-flow: column;
@@ -63,12 +63,39 @@ export const ServiceContainer = styled.div`
     padding: 5px;
     border-radius: 5px;
   }
+  /* Costs Section */
+
+  .costs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #668360;
+
+    padding: 25px;
+    width: 80%;
+    border-radius: 5px;
+  }
+  .costs h1,
+  .costs ul li {
+    color: white;
+  }
+  .costs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 10px;
+  }
+  .costs ul li {
+    border-bottom: solid 1px yellow;
+  }
   @media (max-width: 622px) {
     height: 100%;
   }
 
   @media (max-width: 456px) {
-    height: 100vh;
+    height: 100%;
     section div {
       text-align: center;
       display: flex;
@@ -91,7 +118,7 @@ export const ServiceContainer = styled.div`
     }
   }
   @media (max-width: 396px) {
-    height: 100vh;
+    height: 100%;
     section div {
       text-align: center;
       display: flex;
