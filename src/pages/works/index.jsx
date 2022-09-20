@@ -56,6 +56,9 @@ export const Services = () => {
                   Micropigmentação <i>(a partir)</i> - € 130,00{" "}
                 </li>
               </ul>
+              <p>
+                <Link to="/contact">Faça um contacto</Link>
+              </p>
             </div>
           </div>
         </section>
