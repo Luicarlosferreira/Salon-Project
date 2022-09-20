@@ -72,8 +72,8 @@ export const ServiceContainer = styled.div`
     flex-flow: column wrap;
     background-color: #668360;
 
-    padding: 25px;
-    width: 80%;
+    padding: 20px 0;
+    width: 100%;
     border-radius: 5px;
   }
   .costs h1,
